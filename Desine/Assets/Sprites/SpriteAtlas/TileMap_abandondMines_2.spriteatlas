@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TileMap_abandondMines_2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 128
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 44a82a6118b92714b9433a9398ddc33a, type: 3}
+    - {fileID: 2800000, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+    - {fileID: 2800000, guid: c9bfb1c166f45ae42aed1cb7451a1636, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -7399383783546869707, guid: 44a82a6118b92714b9433a9398ddc33a, type: 3}
+  - {fileID: -2472627115102600721, guid: 44a82a6118b92714b9433a9398ddc33a, type: 3}
+  - {fileID: -1788266477535307928, guid: 44a82a6118b92714b9433a9398ddc33a, type: 3}
+  - {fileID: 8195012321424612254, guid: 44a82a6118b92714b9433a9398ddc33a, type: 3}
+  - {fileID: -7443272864551907761, guid: c9bfb1c166f45ae42aed1cb7451a1636, type: 3}
+  - {fileID: 3170016897743198843, guid: c9bfb1c166f45ae42aed1cb7451a1636, type: 3}
+  - {fileID: 8670102154661516007, guid: c9bfb1c166f45ae42aed1cb7451a1636, type: 3}
+  - {fileID: 6849202457897720736, guid: c9bfb1c166f45ae42aed1cb7451a1636, type: 3}
+  - {fileID: -1144861451202538753, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+  - {fileID: -648033970290195050, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+  - {fileID: 7890584291090235992, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+  - {fileID: 2411448913090298869, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+  - {fileID: 3534646539550272436, guid: 6a12913be43c95f43ad73d39aca46664, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 16x16 tilemap_2-Sheet_1
+  - 16x16 tilemap_2-Sheet_0
+  - 16x16 tilemap_2-Sheet_3
+  - 16x16 tilemap_2-Sheet_2
+  - Tilemap_2_sides(1)-Sheet_2
+  - Tilemap_2_sides(1)-Sheet_3
+  - Tilemap_2_sides(1)-Sheet_0
+  - Tilemap_2_sides(1)-Sheet_1
+  - Tilemap_2_corner-Sheet_3
+  - Tilemap_2_corner-Sheet_2
+  - Tilemap_2_corner-Sheet_1
+  - Tilemap_2_corner-Sheet_0
+  - Tilemap_2_corner-Sheet_4
+  m_RenderDataMap: {}
+  m_Tag: TileMap_abandondMines_2
+  m_IsVariant: 0

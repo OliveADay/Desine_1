@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/Main Menu_PlaceHolder.unity
+    guid: 5184040b768916e499345d6f71ca92e5
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/SavePointSelect_placeholder.unity
+    guid: 8a690ce838ac14646b37397797b26d33
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/Intro.unity
+    guid: 4c4b526972a7ac04184dc5c8a42479c9
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/LevelOne_TestLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/LevelTwo_testLevel.unity
+    guid: e1871d8850d76af4f83611f60ed6978c
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/LevelT_noneLine.unity
+    guid: 967d389e73d05d746aa3046ac87916b6
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/LevelThree_test.unity
+    guid: 349207d8d48291b44b506271d5a8831e
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/Level_2_noneLine.unity
+    guid: 91aa587393aaa604e848a79ab401054d
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/levelFour.unity
+    guid: bbe4164e9217b344c8cd1f5dd1641169
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/LevelFive.unity
+    guid: f0e61438310410e4a8485f1e9aa8c1ec
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/AbandondMines/monstrum_level.unity
+    guid: 0cef3ee0c36be1146a15d96d8bbf2719
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/phycicArea/Phycic_1.unity
+    guid: 2f61e4e78bc2dd743b7d6b602644117f
+  - enabled: 1
+    path: Assets/Prefabs/Scenes/phycicArea/Psychic_2.unity
+    guid: e2d2ffeb44dc2ef418d59dc37ccbcd29
+  m_configObjects: {}

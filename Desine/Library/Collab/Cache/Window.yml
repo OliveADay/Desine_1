@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Audio/Ambient.meta
+    - Assets/Audio/Ambient/ambientPsychic.mp3
+    - Assets/Audio/Ambient/ambientPsychic.mp3.meta
+    - Assets/Audio/Ambient/psychAmb_1.asset
+    - Assets/Audio/Ambient/psychAmb_1.asset.meta
+    - Assets/Audio/Effects/Enemies/Activate.asset
+    - Assets/Audio/Effects/Enemies/Activate.asset.meta
+    - Assets/Audio/Effects/Enemies/Monstep.asset
+    - Assets/Audio/Effects/Enemies/Monstep.asset.meta
+    - Assets/Audio/Effects/Enemies/Monstep.mp3
+    - Assets/Audio/Effects/Enemies/Monstep.mp3.meta
+    - Assets/Audio/Effects/Enemies/activeate.mp3
+    - Assets/Audio/Effects/Enemies/activeate.mp3.meta
+    - Assets/Audio/Effects/Enemies/monster_1_roar_1.mp3
+    - Assets/Audio/Effects/Enemies/monster_1_roar_1.mp3.meta
+    - Assets/Audio/Effects/Game/PickUp.asset
+    - Assets/Audio/Effects/Game/PickUp.asset.meta
+    - Assets/Audio/Effects/Game/pickUp.mp3
+    - Assets/Audio/Effects/Game/pickUp.mp3.meta
+    - Assets/Audio/Effects/Player/Hit/HitEnemy.asset
+    - Assets/Audio/Effects/Player/Hit/Hit_enemy_1.mp3.meta
+    - Assets/Audio/Effects/Player/Hit/Hit_wall_0.mp3.meta
+    - Assets/Audio/Effects/Player/Hit/PlayerSwing.asset
+    - Assets/Audio/Effects/Player/Hit/hitshield_0.mp3.meta
+    - Assets/Audio/Effects/Player/Hit/player_swing_0.mp3.meta
+    - Assets/Audio/Music/GamePlay/Cronstrum_1.asset
+    - Assets/Audio/Music/GamePlay/Cronstrum_1.asset.meta
+    - Assets/Audio/Music/GamePlay/Cronstrum_2.wav
+    - Assets/Audio/Music/GamePlay/Cronstrum_2.wav.meta
+    - Assets/Audio/Music/GamePlay/CubeBoy_mainTheme_2.wav
+    - Assets/Audio/Music/GamePlay/CubeBoy_mainTheme_2.wav.meta
+    - Assets/Audio/Music/GamePlay/Intro_Theme.asset
+    - Assets/Audio/Music/GamePlay/Intro_Theme.asset.meta
+    - Assets/Audio/Music/GamePlay/MainTheme.asset
+    - Assets/Audio/Music/GamePlay/intro_Theme.wav
+    - Assets/Audio/Music/GamePlay/intro_Theme.wav.meta
+    - Assets/Audio/Music/GamePlay/new_MainMenu.wav
+    - Assets/Audio/Music/GamePlay/new_MainMenu.wav.meta
+    - Assets/Cronstrum.cs
+    - Assets/Cronstrum.cs.meta
+    - Assets/Cronstrum_Charge.cs
+    - Assets/Cronstrum_Charge.cs.meta
+    - Assets/Danger_Save.cs
+    - Assets/Danger_Save.cs.meta
+    - Assets/GameManagers/URP.asset
+    - Assets/GameManagers/URP_renderer.asset
+    - Assets/MapActivator.cs
+    - Assets/MapActivator.cs.meta
+    - Assets/MapBit.cs
+    - Assets/MapBit.cs.meta
+    - Assets/MapReciever.cs
+    - Assets/MapReciever.cs.meta
+    - Assets/OnStart.cs
+    - Assets/OnStart.cs.meta
+    - Assets/Prefabs/Backgrounds/AbondondeMines/Background_abaondoneMines_1.prefab
+    - Assets/Prefabs/Backgrounds/AbondondeMines/background_Psychic.prefab
+    - Assets/Prefabs/Backgrounds/AbondondeMines/background_Psychic.prefab.meta
+    - Assets/Prefabs/Backgrounds/AbondondeMines/background_abandondeMines.prefab
+    - Assets/Prefabs/Backgrounds/AbondondeMines/background_abandondeMines.prefab.meta
+    - Assets/Prefabs/Backgrounds/AbondondeMines/torch.prefab
+    - Assets/Prefabs/Backgrounds/AbondondeMines/torch.prefab.meta
+    - Assets/Prefabs/Cutscenes/cutscene_1.playable
+    - Assets/Prefabs/Cutscenes/cutscene_2.playable
+    - Assets/Prefabs/Enemies/Enemie_PlaceHolder.prefab
+    - Assets/Prefabs/Enemies/Enemie_shield.prefab
+    - Assets/Prefabs/Enemies/FlyingA.prefab
+    - Assets/Prefabs/Enemies/FlyingAP.prefab
+    - Assets/Prefabs/Enemies/FlyingP.prefab
+    - Assets/Prefabs/Enemies/LongRange/Arrow.prefab
+    - Assets/Prefabs/Enemies/LongRange/ArrowEnem.prefab
+    - Assets/Prefabs/Enemies/LongRange/psychic bit.prefab
+    - Assets/Prefabs/Enemies/LongRange/psychic bit.prefab.meta
+    - Assets/Prefabs/Enemies/LongRange/psychicSpawn.prefab
+    - Assets/Prefabs/Enemies/LongRange/psychicSpawn.prefab.meta
+    - Assets/Prefabs/Enemies/LongRange/thowing hand.prefab
+    - Assets/Prefabs/Enemies/LongRange/thowing hand.prefab.meta
+    - Assets/Prefabs/Enemies/Penemy_basic.prefab
+    - Assets/Prefabs/Enemies/psychic_base.prefab
+    - Assets/Prefabs/Enemies/psychic_base.prefab.meta
+    - Assets/Prefabs/Enemies/psychic_f.prefab
+    - Assets/Prefabs/Enemies/psychic_f.prefab.meta
+    - Assets/Prefabs/Enemies/psychic_fSpawn.prefab
+    - Assets/Prefabs/Enemies/psychic_fSpawn.prefab.meta
+    - Assets/Prefabs/Environment/Main Camera.prefab
+    - Assets/Prefabs/Environment/color curve.prefab
+    - Assets/Prefabs/Environment/color curve.prefab.meta
+    - Assets/Prefabs/Environment/spike.prefab
+    - Assets/Prefabs/Environment/spike.prefab.meta
+    - Assets/Prefabs/GameManagers/GameManager.prefab
+    - Assets/Prefabs/GameManagers/ambient.prefab
+    - Assets/Prefabs/GameManagers/ambient.prefab.meta
+    - Assets/Prefabs/GameManagers/autoSave.prefab
+    - Assets/Prefabs/GameManagers/autoSave.prefab.meta
+    - Assets/Prefabs/Items/DoubleJump.prefab
+    - Assets/Prefabs/Items/DoubleJump.prefab.meta
+    - Assets/Prefabs/Items/Heart.prefab
+    - Assets/Prefabs/Items/Map.prefab
+    - Assets/Prefabs/Items/Map.prefab.meta
+    - Assets/Prefabs/Items/mapPickup.prefab
+    - Assets/Prefabs/Items/mapPickup.prefab.meta
+    - Assets/Prefabs/Items/pickUp.prefab
+    - Assets/Prefabs/Items/pickUp.prefab.meta
+    - Assets/Prefabs/Lights/Global Light 2D.prefab
+    - Assets/Prefabs/Lights/Global Light 2D_psychic.prefab
+    - Assets/Prefabs/Lights/Global Light 2D_psychic.prefab.meta
+    - Assets/Prefabs/ParticleAffects/EnemD_P.prefab
+    - Assets/Prefabs/ParticleAffects/PlayerHurt_P.prefab
+    - Assets/Prefabs/ParticleAffects/PlayerHurt_P.prefab.meta
+    - Assets/Prefabs/ParticleAffects/psychic_proj_des.prefab
+    - Assets/Prefabs/ParticleAffects/psychic_proj_des.prefab.meta
+    - Assets/Prefabs/Player/Player.prefab
+    - Assets/Prefabs/Scenes.meta
+    - Assets/Prefabs/Scenes/AbandondMines.meta
+    - Assets/Prefabs/Scenes/AbandondMines/Intro.meta
+    - Assets/Prefabs/Scenes/AbandondMines/Intro.unity
+    - Assets/Prefabs/Scenes/AbandondMines/Intro.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/Intro/color curve Profile.asset
+    - Assets/Prefabs/Scenes/AbandondMines/Intro/color curve Profile.asset.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelFive.unity
+    - Assets/Prefabs/Scenes/AbandondMines/LevelFive.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelOne_TestLevel.unity
+    - Assets/Prefabs/Scenes/AbandondMines/LevelOne_TestLevel.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelT_noneLine.unity
+    - Assets/Prefabs/Scenes/AbandondMines/LevelT_noneLine.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelT_noneLineSettings.lighting
+    - Assets/Prefabs/Scenes/AbandondMines/LevelT_noneLineSettings.lighting.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelThree_test.unity
+    - Assets/Prefabs/Scenes/AbandondMines/LevelThree_test.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelThree_testSettings.lighting
+    - Assets/Prefabs/Scenes/AbandondMines/LevelThree_testSettings.lighting.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelTwo_testLevel.unity
+    - Assets/Prefabs/Scenes/AbandondMines/LevelTwo_testLevel.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/LevelTwo_testLevelSettings.lighting
+    - Assets/Prefabs/Scenes/AbandondMines/LevelTwo_testLevelSettings.lighting.meta
+    - Assets/Prefabs/Scenes/AbandondMines/Level_2_noneLine.unity
+    - Assets/Prefabs/Scenes/AbandondMines/Level_2_noneLine.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/Level_2_noneLineSettings.lighting
+    - Assets/Prefabs/Scenes/AbandondMines/Level_2_noneLineSettings.lighting.meta
+    - Assets/Prefabs/Scenes/AbandondMines/levelFour.unity
+    - Assets/Prefabs/Scenes/AbandondMines/levelFour.unity.meta
+    - Assets/Prefabs/Scenes/AbandondMines/monstrum_level.unity
+    - Assets/Prefabs/Scenes/AbandondMines/monstrum_level.unity.meta
+    - Assets/Prefabs/Scenes/Main Menu_PlaceHolder.unity
+    - Assets/Prefabs/Scenes/Main Menu_PlaceHolder.unity.meta
+    - Assets/Prefabs/Scenes/Main Menu_PlaceHolderSettings.lighting
+    - Assets/Prefabs/Scenes/Main Menu_PlaceHolderSettings.lighting.meta
+    - Assets/Prefabs/Scenes/SavePointSelect_placeholder.unity
+    - Assets/Prefabs/Scenes/SavePointSelect_placeholder.unity.meta
+    - Assets/Prefabs/Scenes/levelFour.meta
+    - Assets/Prefabs/Scenes/levelFour/Global Volume Profile.asset
+    - Assets/Prefabs/Scenes/levelFour/Global Volume Profile.asset.meta
+    - Assets/Prefabs/Scenes/phycicArea.meta
+    - Assets/Prefabs/Scenes/phycicArea/Phycic_1.unity
+    - Assets/Prefabs/Scenes/phycicArea/Phycic_1.unity.meta
+    - Assets/Prefabs/Scenes/phycicArea/Psychic_2.unity
+    - Assets/Prefabs/Scenes/phycicArea/Psychic_2.unity.meta
+    - Assets/Prefabs/UI/PauseMenuEvent.prefab
+    - Assets/Prefabs/shaders.meta
+    - Assets/Prefabs/shaders/Arrow.mat
+    - Assets/Prefabs/shaders/Arrow.mat.meta
+    - Assets/Prefabs/shaders/Cronstrum.mat
+    - Assets/Prefabs/shaders/Cronstrum.mat.meta
+    - Assets/Prefabs/shaders/Cronstrum_secondFase.mat
+    - Assets/Prefabs/shaders/Cronstrum_secondFase.mat.meta
+    - Assets/Prefabs/shaders/Shader Graphs_hitEff_lit.mat
+    - Assets/Prefabs/shaders/Shader Graphs_hitEff_lit.mat.meta
+    - Assets/Prefabs/shaders/hitEff_lit.shadergraph
+    - Assets/Prefabs/shaders/hitEff_lit.shadergraph.meta
+    - Assets/Prefabs/shaders/pyschic_hitMat.mat
+    - Assets/Prefabs/shaders/pyschic_hitMat.mat.meta
+    - Assets/Prefabs/shaders/pyschic_mat.mat
+    - Assets/Prefabs/shaders/pyschic_mat.mat.meta
+    - Assets/Prefabs/shaders/spriteGlow_unlit.shadergraph
+    - Assets/Prefabs/shaders/spriteGlow_unlit.shadergraph.meta
+    - Assets/Prefabs/shaders/torch.mat
+    - Assets/Prefabs/shaders/torch.mat.meta
+    - Assets/Scripts/EffectsScript/Paralax.cs
+    - Assets/Scripts/EnemyScripts/BaseEnemy/Enemy_Attack.cs
+    - Assets/Scripts/EnemyScripts/BaseEnemy/Patrol.cs
+    - Assets/Scripts/EnemyScripts/EnemyShieldScripts/ShieldAttack.cs
+    - Assets/Scripts/EnemyScripts/EnemyShieldScripts/ShieldEnemy.cs
+    - Assets/Scripts/EnemyScripts/EnemyShieldScripts/ShieldPatrol.cs
+    - Assets/Scripts/EnemyScripts/GeneralEnemy/HurtOnImpact.cs
+    - Assets/Scripts/EnemyScripts/GeneralEnemy/LongRange/Projectile.cs
+    - Assets/Scripts/EnemyScripts/GeneralEnemy/Movement/FlyPatrol.cs
+    - Assets/Scripts/EnemyScripts/Platform/Flying/FlyAttack.cs
+    - Assets/Scripts/EnemyScripts/Platform/Flying/FlyPEnemy.cs
+    - Assets/Scripts/EntityScripts/Rider.cs
+    - Assets/Scripts/EnvironmentScript/OnTrigger.cs
+    - Assets/Scripts/GameManagerScripts/AudioManager.cs
+    - Assets/Scripts/GameManagerScripts/LevelLoader.cs
+    - Assets/Scripts/GameManagerScripts/SaveManager.cs
+    - Assets/Scripts/GameManagerScripts/SaveSpawn.cs
+    - Assets/Scripts/GameManagerScripts/pickUp.cs
+    - Assets/Scripts/PlayerScripts/Player.cs
+    - Assets/Scripts/PlayerScripts/PlayerCloseRangeCombat.cs
+    - Assets/Scripts/PlayerScripts/PlayerController.cs
+    - Assets/Scripts/PlayerScripts/PlayerLevelTransistioner.cs
+    - Assets/Scripts/ScriptableObjects/Sound.cs
+    - Assets/Scripts/UIScripts/TypeWriter.cs
+    - Assets/Scripts/abstract Scripts/EnemyAbstracts/Entity.cs
+    - Assets/Scripts/compEnabling.cs
+    - Assets/Scripts/extraFunctions.cs
+    - Assets/Sprites/Backgrounds/background_abandondemines_2-Sheet.png
+    - Assets/Sprites/Backgrounds/background_abandondemines_2-Sheet.png.meta
+    - Assets/Sprites/Backgrounds/psychic_background-Sheet.png
+    - Assets/Sprites/Backgrounds/psychic_background-Sheet.png.meta
+    - Assets/Sprites/SpriteAtlas/TileMap_abandondMines_2.spriteatlas
+    - Assets/Sprites/TileMaps/interactable_tilemaps/Ground Tiles.prefab
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_0.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_0.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_1.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_1.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_10.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_10.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_11.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_11.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_12.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_12.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_13.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_13.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_14.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_14.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_15.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_15.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_16.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_16.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_17.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_17.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_18.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_18.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_2.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_2.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_3.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_3.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_4.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_4.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_5.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_5.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_6.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_6.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_7.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_7.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_8.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_8.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_9.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet 1_9.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_0.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_0.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_1.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_1.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_10.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_10.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_11.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_11.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_12.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_12.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_13.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_13.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_14.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_14.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_15.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_15.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_16.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_16.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_17.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_17.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_18.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_18.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_19.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_19.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_2.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_2.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_20.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_20.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_21.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_21.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_22.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_22.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_23.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_23.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_24.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_24.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_25.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_25.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_3.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_3.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_4.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_4.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_5.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_5.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_6.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_6.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_7.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_7.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_8.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_8.asset.meta
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_9.asset
+    - Assets/Sprites/TileMaps/interactable_tilemaps/physicic_tile_set-Sheet_9.asset.meta
+    - Assets/Sprites/TileMaps/physicic_tile_set-Sheet 1.png
+    - Assets/Sprites/TileMaps/physicic_tile_set-Sheet 1.png.meta
+    - Assets/Sprites/TileMaps/physicic_tile_set-Sheet.png
+    - Assets/Sprites/TileMaps/physicic_tile_set-Sheet.png.meta
+    - Assets/Sprites/UI elements/PowerUps.meta
+    - Assets/Sprites/UI elements/PowerUps/doubleJump.png
+    - Assets/Sprites/UI elements/PowerUps/doubleJump.png.meta
+    - Assets/Sprites/UI elements/PowerUps/glowEff.png
+    - Assets/Sprites/UI elements/PowerUps/glowEff.png.meta
+    - Assets/Sprites/UI elements/sprites/Map_AbandondMines-Sheet.png
+    - Assets/Sprites/UI elements/sprites/Map_AbandondMines-Sheet.png.meta
+    - Assets/Sprites/UI elements/sprites/boss_1_healthBar.png
+    - Assets/Sprites/UI elements/sprites/boss_1_healthBar.png.meta
+    - Assets/Sprites/UI elements/sprites/scaler-Sheet.png
+    - Assets/Sprites/UI elements/sprites/scaler-Sheet.png.meta
+    - Assets/TestAssetCreation/AbandondeMines.meta
+    - Assets/TestAssetCreation/AbandondeMines/Cronstrum_L.asset
+    - Assets/TestAssetCreation/AbandondeMines/Cronstrum_L.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/Intro.asset
+    - Assets/TestAssetCreation/AbandondeMines/Intro.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L1.asset
+    - Assets/TestAssetCreation/AbandondeMines/L1.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L2.asset
+    - Assets/TestAssetCreation/AbandondeMines/L2.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L2_ult1.asset
+    - Assets/TestAssetCreation/AbandondeMines/L2_ult1.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L3.asset
+    - Assets/TestAssetCreation/AbandondeMines/L3.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L3_ult1.asset
+    - Assets/TestAssetCreation/AbandondeMines/L3_ult1.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L4.asset
+    - Assets/TestAssetCreation/AbandondeMines/L4.asset.meta
+    - Assets/TestAssetCreation/AbandondeMines/L5.asset
+    - Assets/TestAssetCreation/AbandondeMines/L5.asset.meta
+    - Assets/TestAssetCreation/phycic.meta
+    - Assets/TestAssetCreation/phycic/1.asset
+    - Assets/TestAssetCreation/phycic/1.asset.meta
+    - Assets/TestAssetCreation/phycic/2.asset
+    - Assets/TestAssetCreation/phycic/2.asset.meta
+    - Assets/Twitter_devlogs.meta
+    - Assets/Twitter_devlogs/2pFWG_editied.mp4
+    - Assets/Twitter_devlogs/2pFWG_editied.mp4.meta
+    - Assets/Twitter_devlogs/CronstrumMusic_3_editied.mp4
+    - Assets/Twitter_devlogs/CronstrumMusic_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/CronstrumMusic_4_editied.mp4
+    - Assets/Twitter_devlogs/CronstrumMusic_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/CronstrumS_editied.mp4
+    - Assets/Twitter_devlogs/CronstrumS_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_10_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_10_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_11_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_11_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_12_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_12_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_13_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_13_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_14_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_14_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_16_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_16_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_17_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_17_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_18_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_18_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_19_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_19_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_1_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_2_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_3_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_4_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_5_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_5_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_6_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_6_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_7_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_7_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_8_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_8_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_music_1_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_music_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_music_2_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_music_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_music_5.mp4
+    - Assets/Twitter_devlogs/Cronstrum_music_5.mp4.meta
+    - Assets/Twitter_devlogs/Cronstrum_music_5_editied.mp4
+    - Assets/Twitter_devlogs/Cronstrum_music_5_editied.mp4.meta
+    - Assets/Twitter_devlogs/FF_2_editied.mp4
+    - Assets/Twitter_devlogs/FF_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/FF_editied.mp4
+    - Assets/Twitter_devlogs/FF_editied.mp4.meta
+    - Assets/Twitter_devlogs/GBF_p_editied.mp4
+    - Assets/Twitter_devlogs/GBF_p_editied.mp4.meta
+    - Assets/Twitter_devlogs/GB_3_editied.mp4
+    - Assets/Twitter_devlogs/GB_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/GB_SE_editied.mp4
+    - Assets/Twitter_devlogs/GB_SE_editied.mp4.meta
+    - Assets/Twitter_devlogs/GB_a_editied.mp4
+    - Assets/Twitter_devlogs/GB_a_editied.mp4.meta
+    - Assets/Twitter_devlogs/GFS_editied.mp4
+    - Assets/Twitter_devlogs/GFS_editied.mp4.meta
+    - Assets/Twitter_devlogs/Gb_2_editied.mp4
+    - Assets/Twitter_devlogs/Gb_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/L4_s_editied.mp4
+    - Assets/Twitter_devlogs/L4_s_editied.mp4.meta
+    - Assets/Twitter_devlogs/L5_3_editied.mp4
+    - Assets/Twitter_devlogs/L5_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/L5_editied.mp4
+    - Assets/Twitter_devlogs/L5_editied.mp4.meta
+    - Assets/Twitter_devlogs/Nop_editied.mp4
+    - Assets/Twitter_devlogs/Nop_editied.mp4.meta
+    - Assets/Twitter_devlogs/Pyschic_CB.mp4
+    - Assets/Twitter_devlogs/Pyschic_CB.mp4.meta
+    - Assets/Twitter_devlogs/Pyschic_CB_editied.mp4
+    - Assets/Twitter_devlogs/Pyschic_CB_editied.mp4.meta
+    - Assets/Twitter_devlogs/Pyschic_cc_editied.mp4
+    - Assets/Twitter_devlogs/Pyschic_cc_editied.mp4.meta
+    - Assets/Twitter_devlogs/Sf_editied.mp4
+    - Assets/Twitter_devlogs/Sf_editied.mp4.meta
+    - Assets/Twitter_devlogs/clippingFix_1_editied.mp4
+    - Assets/Twitter_devlogs/clippingFix_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/clippingFix_3_editied.mp4
+    - Assets/Twitter_devlogs/clippingFix_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/clippingFx_2_editied.mp4
+    - Assets/Twitter_devlogs/clippingFx_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/clippingFx_4_editied.mp4
+    - Assets/Twitter_devlogs/clippingFx_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/fixStuckOnEnem_editied.mp4
+    - Assets/Twitter_devlogs/fixStuckOnEnem_editied.mp4.meta
+    - Assets/Twitter_devlogs/fix_transnonline1-2_editied.mp4
+    - Assets/Twitter_devlogs/fix_transnonline1-2_editied.mp4.meta
+    - Assets/Twitter_devlogs/fixing_1_editied.mp4
+    - Assets/Twitter_devlogs/fixing_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/glow_torch_editied.mp4
+    - Assets/Twitter_devlogs/glow_torch_editied.mp4.meta
+    - Assets/Twitter_devlogs/introFix_2_editied.mp4
+    - Assets/Twitter_devlogs/introFix_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/introFix_3_editied.mp4
+    - Assets/Twitter_devlogs/introFix_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/introFix_4_editied.mp4
+    - Assets/Twitter_devlogs/introFix_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_16_editied.mp4
+    - Assets/Twitter_devlogs/intro_16_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_17_editied.mp4
+    - Assets/Twitter_devlogs/intro_17_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_18_editied.mp4
+    - Assets/Twitter_devlogs/intro_18_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_19_editied.mp4
+    - Assets/Twitter_devlogs/intro_19_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_20_editied.mp4
+    - Assets/Twitter_devlogs/intro_20_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_fix_1_editied.mp4
+    - Assets/Twitter_devlogs/intro_fix_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/intro_music.mp4
+    - Assets/Twitter_devlogs/intro_music.mp4.meta
+    - Assets/Twitter_devlogs/intro_walkB_editied.mp4
+    - Assets/Twitter_devlogs/intro_walkB_editied.mp4.meta
+    - Assets/Twitter_devlogs/inwall_bug_editied.mp4
+    - Assets/Twitter_devlogs/inwall_bug_editied.mp4.meta
+    - Assets/Twitter_devlogs/l5_2_editied.mp4
+    - Assets/Twitter_devlogs/l5_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/l5_4_editied.mp4
+    - Assets/Twitter_devlogs/l5_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/l5_5_editied.mp4
+    - Assets/Twitter_devlogs/l5_5_editied.mp4.meta
+    - Assets/Twitter_devlogs/level4_editied.mp4
+    - Assets/Twitter_devlogs/level4_editied.mp4.meta
+    - Assets/Twitter_devlogs/newMainTheme_editied.mp4
+    - Assets/Twitter_devlogs/newMainTheme_editied.mp4.meta
+    - Assets/Twitter_devlogs/pausemenu_fix_editied.mp4
+    - Assets/Twitter_devlogs/pausemenu_fix_editied.mp4.meta
+    - Assets/Twitter_devlogs/phycicArea_1_editied.mp4
+    - Assets/Twitter_devlogs/phycicArea_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/phycic_2_editied.mp4
+    - Assets/Twitter_devlogs/phycic_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/phycic_3_editied.mp4
+    - Assets/Twitter_devlogs/phycic_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/postProcessing_editied.mp4
+    - Assets/Twitter_devlogs/postProcessing_editied.mp4.meta
+    - Assets/Twitter_devlogs/prjEx_editied.mp4
+    - Assets/Twitter_devlogs/prjEx_editied.mp4.meta
+    - Assets/Twitter_devlogs/proj_psychic_1_editied.mp4
+    - Assets/Twitter_devlogs/proj_psychic_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_4_editied.mp4
+    - Assets/Twitter_devlogs/psychic_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_5_editied.mp4
+    - Assets/Twitter_devlogs/psychic_5_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_6_editied.mp4
+    - Assets/Twitter_devlogs/psychic_6_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_c_1_editied.mp4
+    - Assets/Twitter_devlogs/psychic_c_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_changeC_1_editied.mp4
+    - Assets/Twitter_devlogs/psychic_changeC_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_enem_4_editied.mp4
+    - Assets/Twitter_devlogs/psychic_enem_4_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_f_1_editied.mp4
+    - Assets/Twitter_devlogs/psychic_f_1_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_f_2_editied.mp4
+    - Assets/Twitter_devlogs/psychic_f_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/psychic_proj_2_editied.mp4
+    - Assets/Twitter_devlogs/psychic_proj_2_editied.mp4.meta
+    - Assets/Twitter_devlogs/pyschic_7_editied.mp4
+    - Assets/Twitter_devlogs/pyschic_7_editied.mp4.meta
+    - Assets/Twitter_devlogs/pyschic_enem_3_editied.mp4
+    - Assets/Twitter_devlogs/pyschic_enem_3_editied.mp4.meta
+    - Assets/Twitter_devlogs/sb_editied.mp4
+    - Assets/Twitter_devlogs/sb_editied.mp4.meta
+    - Assets/Twitter_devlogs/shaderBug_editied.mp4
+    - Assets/Twitter_devlogs/shaderBug_editied.mp4.meta
+    - Assets/Twitter_devlogs/shader_sW_editied.mp4
+    - Assets/Twitter_devlogs/shader_sW_editied.mp4.meta
+    - Assets/Twitter_devlogs/skipF_multPB_editied.mp4
+    - Assets/Twitter_devlogs/skipF_multPB_editied.mp4.meta
+    - Assets/Twitter_devlogs/skip_bug_editied.mp4
+    - Assets/Twitter_devlogs/skip_bug_editied.mp4.meta
+    - Assets/Twitter_devlogs/torches_1_editied.mp4
+    - Assets/Twitter_devlogs/torches_1_editied.mp4.meta
+    - Assets/aim.cs
+    - Assets/aim.cs.meta
+    - Assets/ambient.cs
+    - Assets/ambient.cs.meta
+    - Assets/animations/Animation_Player/cutscene/Eaftos_controller.controller
+    - Assets/animations/Animation_Player/cutscene/fall_3.anim
+    - Assets/animations/Animation_Player/cutscene/fall_3.anim.meta
+    - Assets/animations/Animation_Player/cutscene/idleToFall.anim
+    - Assets/animations/Animation_Player/cutscene/idleToFall.anim.meta
+    - Assets/animations/Animation_Player/mainGameplay/Player_Attack.anim
+    - Assets/animations/Animation_Player/mainGameplay/Player_Fall.anim
+    - Assets/animations/Animation_Player/mainGameplay/Player_controller.controller
+    - Assets/animations/Decoration/blocker.meta
+    - Assets/animations/Decoration/blocker/BlockerConAnim.controller
+    - Assets/animations/Decoration/blocker/BlockerConAnim.controller.meta
+    - Assets/animations/Decoration/blocker/activeIdle.anim
+    - Assets/animations/Decoration/blocker/activeIdle.anim.meta
+    - Assets/animations/Decoration/blocker/disable.anim
+    - Assets/animations/Decoration/blocker/disable.anim.meta
+    - Assets/animations/Decoration/blocker/enable.anim
+    - Assets/animations/Decoration/blocker/enable.anim.meta
+    - Assets/animations/Decoration/blocker/idle.anim
+    - Assets/animations/Decoration/blocker/idle.anim.meta
+    - Assets/animations/Decoration/torch.meta
+    - Assets/animations/Decoration/torch/burning.anim
+    - Assets/animations/Decoration/torch/burning.anim.meta
+    - Assets/animations/Decoration/torch/torch_animController.controller
+    - Assets/animations/Decoration/torch/torch_animController.controller.meta
+    - Assets/animations/Desine/Intro/handOut.anim
+    - Assets/animations/Desine/Intro/handOut.anim.meta
+    - Assets/animations/Desine/Intro/intro_desineCon.controller
+    - Assets/animations/enemy_animations/Bosses.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/Cronstrum_animController.controller
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/Cronstrum_animController.controller.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/active_idle.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/active_idle.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/charge.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/charge.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/charge_ant.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/charge_ant.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/sleeping.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/sleeping.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thow_hand.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thow_hand.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thowing
+      arm.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thowing
+      arm/idle.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thowing
+      arm/idle.anim.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thowing
+      arm/thowingHand_animCon.controller
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/thowing
+      arm/thowingHand_animCon.controller.meta
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/wakeUp.anim
+    - Assets/animations/enemy_animations/Bosses/abandondeMines/Cronstrum/wakeUp.anim.meta
+    - Assets/animations/enemy_animations/enemies.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Attack.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Attack.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Dead_Evaporate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Dead_Evaporate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Notice.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Notice.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Run.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Run.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Walk.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_Walk.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/Enemy_hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/enemy.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/enemy.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/enemy_idle.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/BaseEnemyAnimations/enemy_idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/Attack.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/Attack.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/F_ab_Con.overrideController
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/F_ab_Con.overrideController.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/Pat.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/Pat.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/evap.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/evap.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/Flying/AbondondeMines_base/hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/ActiveIdle.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/ActiveIdle.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/ArrowCon.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/ArrowCon.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/Attack.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/Attack.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/BowCon.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/BowCon.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/Idle.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Bow/Idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/DeActivate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/DeActivate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Evaporate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Evaporate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Idle.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Notice.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/LongRange/Arrow/Notice.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Evaporate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Evaporate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Patrol.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Patrol.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Penemy_basic_controller.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/Basic/Penemy_basic_controller.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Evaporate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Evaporate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/FlyPCon.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/FlyPCon.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Patrol.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/PlatformEnemies/FlyingP/Patrol.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Attack.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Attack.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Dead.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Notice.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_Notice.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_hurt.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_idle.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_walk.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_Shield_walk.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_shield_Dead_Evaporate.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/Enemy_shield_Dead_Evaporate.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/ShieldEnemyController.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/ShieldEnemyAnimations/ShieldEnemyController.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/Run.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/Run.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/mon_intro_con.controller
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/mon_intro_con.controller.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/roar.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/roar.anim.meta
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/wake.anim
+    - Assets/animations/enemy_animations/enemies/AbandondeMines/monsters/intro_monster/wake.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/Hurt.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/Hurt.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/animCon.controller
+    - Assets/animations/enemy_animations/enemies/psychic/fling/animCon.controller.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/attack.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/attack.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/dead.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/dead.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/idle.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/psychicSpawn.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/psychicSpawn/idle.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/psychicSpawn/idle.anim.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/psychicSpawn/psychSpawnCon.controller
+    - Assets/animations/enemy_animations/enemies/psychic/fling/psychicSpawn/psychSpawnCon.controller.meta
+    - Assets/animations/enemy_animations/enemies/psychic/fling/run.anim
+    - Assets/animations/enemy_animations/enemies/psychic/fling/run.anim.meta
+    - Assets/autoSave.cs
+    - Assets/autoSave.cs.meta
+    - Assets/blocker.cs
+    - Assets/blocker.cs.meta
+    - Assets/changeShaderC.cs
+    - Assets/changeShaderC.cs.meta
+    - Assets/doubleJump_P.cs
+    - Assets/doubleJump_P.cs.meta
+    - Assets/fade.cs
+    - Assets/fade.cs.meta
+    - Assets/psychSpawnEnem.cs
+    - Assets/psychSpawnEnem.cs.meta
+    - Assets/rotate.cs
+    - Assets/rotate.cs.meta
+    - Assets/saveCheck.cs
+    - Assets/saveCheck.cs.meta
+    - Assets/spritesheets/Decorate/blocker-Sheet.png
+    - Assets/spritesheets/Decorate/blocker-Sheet.png.meta
+    - Assets/spritesheets/Decorate/spike.png
+    - Assets/spritesheets/Decorate/spike.png.meta
+    - Assets/spritesheets/Decorate/torch.meta
+    - Assets/spritesheets/Decorate/torch/torch_1-Sheet.png
+    - Assets/spritesheets/Decorate/torch/torch_1-Sheet.png.meta
+    - Assets/spritesheets/Decorate/torch/torch_1-Sheet_bloom.png
+    - Assets/spritesheets/Decorate/torch/torch_1-Sheet_bloom.png.meta
+    - Assets/spritesheets/Desine/Desine_handOut-Sheet.png
+    - Assets/spritesheets/Desine/Desine_handOut-Sheet.png.meta
+    - Assets/spritesheets/Desine/Desine_parts-Sheet.png
+    - Assets/spritesheets/Desine/Desine_parts-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/Cronstrum_hand-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/Cronstrum_hand-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/boss_1-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/boss_1-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/boss_1-Sheet_hit.png
+    - Assets/spritesheets/SpriteSheet_enemy/Bosses/Cronstrum/boss_1-Sheet_hit.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_Animation_Notice.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_Animation_Notice.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_
+      hurt 1.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_
+      hurt 1.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_Run-Sheet
+      1.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_Run-Sheet
+      1.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_attack.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_attack.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_dead
+      1.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_dead
+      1.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_dead_evaporate.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_dead_evaporate.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_idle.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_idle.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_walk.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_Base_SpriteSheets/enemy_animation_walk.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_dead.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_dead.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_dead_evaporation.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_dead_evaporation.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_notice.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_aniamtion_notice.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_Idle.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_Idle.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_attack.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_attack.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_hurt.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_hurt.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_walk.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Enemy_shield_spriteSheets/enemy_Shield_animation_walk.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying/WingedEnemy.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying/WingedEnemy/WingedEnemy.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying/WingedEnemy/WingedEnemy.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying/WingedEnemy/WingedEnemy_attack-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Flying/WingedEnemy/WingedEnemy_attack-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/LongRange.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/LongRange/arrowEnemy-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/LongRange/arrowEnemy-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Monster_1.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Monster_1/monster_1-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Monster_1/monster_1-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Basic.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Basic/Penemy_animation_Hurt.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Basic/Penemy_animation_Hurt.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Basic/Penemy_animation_patrol.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Basic/Penemy_animation_patrol.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Flying.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Flying/WingedPenemy
+      (2).png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/AbandondMines/Platform/Flying/WingedPenemy
+      (2).png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/Flying/WingedEnemy.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/Flying/WingedEnemy_attack-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/LongRange/arrowEnemy-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/LongRange/arrowEnemy-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic/psychic_f.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic/psychic_f/psychicEnem_base_f-Sheet.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic/psychic_f/psychicEnem_base_f-Sheet.png.meta
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic/psychic_f/psychicEnem_base_f-Sheet_emissions.png
+    - Assets/spritesheets/SpriteSheet_enemy/Enemies/psychic/psychic_f/psychicEnem_base_f-Sheet_emissions.png.meta
+    - Assets/spritesheets/Spritesheet_Player/Cutscenes/eaftos_fall-Sheet.png
+    - Assets/spritesheets/Spritesheet_Player/Cutscenes/eaftos_fall-Sheet.png.meta
+    - Assets/spritesheets/Spritesheet_Player/Cutscenes/eaftos_parts-Sheet.png
+    - Assets/spritesheets/Spritesheet_Player/Cutscenes/eaftos_parts-Sheet.png.meta
+    - Assets/spritesheets/Spritesheet_Player/mainGameplay/Character_animation_attack-Sheet.png
+    - Assets/spritesheets/Spritesheet_Player/mainGameplay/Character_animation_attack-Sheet.png.meta
+    - Assets/spritesheets/Spritesheet_Player/mainGameplay/eaftos_attack-Sheet.png
+    - Assets/spritesheets/Spritesheet_Player/mainGameplay/eaftos_attack-Sheet.png.meta
+    - Assets/tilemap Rules/psychic.asset
+    - Assets/tilemap Rules/psychic.asset.meta
+    - Assets/wait.cs
+    - Assets/wait.cs.meta
+    - Assets/waitMono.cs
+    - Assets/waitMono.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

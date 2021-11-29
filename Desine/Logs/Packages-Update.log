@@ -1,0 +1,21 @@
+
+=== Sat Jun 26 21:23:11 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ide.visualstudio@2.0.9
+  com.unity.test-framework@1.1.24
+  com.unity.visualscripting@1.6.1
+The following packages were updated:
+  com.unity.2d.animation from version 3.2.3 to 6.0.3
+  com.unity.2d.path from version 2.0.6 to 5.0.0
+  com.unity.2d.pixel-perfect from version 2.0.4 to 5.0.0
+  com.unity.2d.psdimporter from version 2.1.4 to 5.0.3
+  com.unity.2d.spriteshape from version 3.0.12 to 6.0.0
+  com.unity.cinemachine from version 2.7.2 to 2.7.3
+  com.unity.collab-proxy from version 1.2.16 to 1.5.7
+  com.unity.ide.rider from version 1.1.4 to 3.0.7
+  com.unity.textmeshpro from version 2.0.1 to 3.0.6
+  com.unity.timeline from version 1.2.18 to 1.5.5

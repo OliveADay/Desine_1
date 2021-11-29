@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9099710017115668638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e61b5a7a822fb48b2e853c4363a2d3, type: 3}
+  m_Name: Passage2
+  m_EditorClassIdentifier: 
+  PassageType: 
+  sceneTo: {fileID: 11400000, guid: fa9d985a14e48e24488984880671dd1b, type: 2}
+  passageIndex: 0
+--- !u!114 &-7935304160022443619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e61b5a7a822fb48b2e853c4363a2d3, type: 3}
+  m_Name: Passage1
+  m_EditorClassIdentifier: 
+  PassageType: 
+  sceneTo: {fileID: 11400000, guid: 5ee40b65fbf55414ea3f571c65a1fc61, type: 2}
+  passageIndex: 0
+--- !u!114 &-4853683229991606336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e61b5a7a822fb48b2e853c4363a2d3, type: 3}
+  m_Name: Passage0
+  m_EditorClassIdentifier: 
+  PassageType: 
+  sceneTo: {fileID: 11400000, guid: cbc4747705912bc4c8a5e97913ff1a05, type: 2}
+  passageIndex: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975e1108bffb36748b54f1dbce330631, type: 3}
+  m_Name: L5
+  m_EditorClassIdentifier: 
+  sceneName: LevelFive
+  passages:
+  - {fileID: -4853683229991606336}
+  - {fileID: -7935304160022443619}
+  - {fileID: -9099710017115668638}
+  - {fileID: 6166986810351421097}
+  passageNames:
+  - Passage0
+  - Passage1
+  - Passage2
+  - Passage3
+  passageNumber: 3
+--- !u!114 &6166986810351421097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e61b5a7a822fb48b2e853c4363a2d3, type: 3}
+  m_Name: Passage3
+  m_EditorClassIdentifier: 
+  PassageType: 
+  sceneTo: {fileID: 11400000, guid: a43b0132fc7b3f94aaca37178069718c, type: 2}
+  passageIndex: 0
