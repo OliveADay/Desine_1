@@ -11,7 +11,8 @@ public class SaveSpawn : MonoBehaviour
     public GameObject pauseMenu;
     bool pauseActive = false;
     public GameObject darkenScreenRef;
-    GameObject darkenedScreen;
+    [HideInInspector]
+    public GameObject darkenedScreen;
     private void Awake()
     {
 
@@ -49,16 +50,14 @@ public class SaveSpawn : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (pauseActive == false)
+                if (!pauseMenu.activeSelf)
                 {
-                    pauseActive = true;
                     darkenedScreen = Instantiate(darkenScreenRef);
                     pauseMenu.SetActive(true);
                     Time.timeScale = 0;
                 }
                 else
                 {
-                    pauseActive = false;
                     Destroy(darkenedScreen);
                     pauseMenu.SetActive(false);
                     Time.timeScale = 1;

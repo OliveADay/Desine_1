@@ -31,6 +31,19 @@ public class MainMenu : MonoBehaviour
         }
         levelLoader.LoadLevel(lastLevel);
     }
+    public void unpause()
+    {
+        Time.timeScale = 1;
+        GameObject darkenscreenMain = GameObject.FindGameObjectWithTag("GameManager");
+        if(darkenscreenMain != null)
+        {
+            GameObject darkenScreen = darkenscreenMain.GetComponent<SaveSpawn>().darkenedScreen;
+            if(darkenScreen != null)
+            {
+                Destroy(darkenScreen);
+            }
+        }
+    }
     public void SlotSelect()
     {
         levelLoader.LoadLevel(saveSlotLevel);
